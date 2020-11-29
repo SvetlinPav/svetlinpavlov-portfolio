@@ -68,3 +68,11 @@ img {
     transform: translatey(0px);
   }
 }
+
+p.NotReady {
+  position: absolute;
+  bottom: 0%;
+  font-size: larger;
+  font-family: monospace;
+  font-weight: 800;
+}
