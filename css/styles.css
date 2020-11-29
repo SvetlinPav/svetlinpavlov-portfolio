@@ -39,12 +39,8 @@ img {
   justify-content: space-around;
   align-items: center;
 }
-.links p {
-  font-size: 1rem;
-  margin: 50 auto;
-}
 .links img {
-  width: 80px;
+  width: 75px;
   height: 100%;
 }
 .fas {
