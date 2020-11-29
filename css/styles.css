@@ -71,6 +71,7 @@ p.NotReady {
   font-size: larger;
   font-family: monospace;
   font-weight: 800;
+  text-align: center;
 }
 
 section {
