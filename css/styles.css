@@ -72,3 +72,11 @@ p.NotReady {
   font-family: monospace;
   font-weight: 800;
 }
+
+section {
+  padding: 100px;
+  color: #111;
+}
+section p {
+  font-size: 1.2em;
+}
