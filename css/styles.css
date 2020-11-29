@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name__links {
+  position: absolute;
+  color: #fff;
+  font-size: 5rem;
+  text-align: center;
+}
+img {
+  width: 100%;
+  height: 100%;
+  transform: scale(1.2);
+}
+.name__links h2 {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-family: "Pacifico", cursive;
+  letter-spacing: 6px;
+  text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4,
+    2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd,
+    3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4,
+    5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd,
+    6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4,
+    8px 7px 0px #5dabcd;
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.links p {
+  font-size: 1rem;
+  margin: 50 auto;
+}
+.links img {
+  width: 80px;
+  height: 100%;
+}
+.fas {
+  animation: float 1.6s ease-in-out infinite;
+  text-shadow: 1px 1px 1px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4,
+    2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd,
+    3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4,
+    5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd,
+    6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4,
+    8px 7px 0px #5dabcd;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}

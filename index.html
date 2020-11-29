@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <ul id="scene">
+        <li class="layer" data-depth="0.3">
+          <img src="./assets/js-logo.png" alt="Javascript-Logo" class="layer" />
+        </li>
+        <li class="layer" data-depth="0.2">
+          <img src="./assets/sass-logo.png" alt="" class="layer" />
+        </li>
+        <li class="layer" data-depth="0.2">
+          <img src="./assets/git-logo.png" alt="" class="layer" />
+        </li>
+        <li class="layer" data-depth="0.3">
+          <img src="./assets/styledComponents-logo.png" alt="" class="layer" />
+        </li>
+        <li class="layer" data-depth="0.2">
+          <img src="./assets/react-logo.png" alt="" class="layer" />
+        </li>
+        <li class="layer" data-depth="0.3">
+          <img src="./assets/redux-logo.png" alt="" class="layer" />
+        </li>
+      </ul>
+      <div class="name__links">
+        <h2>Svetlin Pavlov</h2>
+        <div class="links">
+          <img src="/assets/github-logo.png" alt="Guthub-Logo" />
+          <i class="fas fa-angle-down fa-lg"></i>
+          <img src="/assets/twitter.png" alt="Twitter-Logo" />
+        </div>
+      </div>
+    </div>
+    <script>
+      var scene = document.getElementById("scene");
+      var parallax = new Parallax(scene);
+    </script>
+  </body>
+</html>
