@@ -16,13 +16,14 @@
       href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
       rel="stylesheet"
     />
+    <title>Svetlin Pavlov's Portfolio</title>
   </head>
   <body>
     <nav>
       <ul>
-        <li><a href="">About Me</a></li>
-        <li><a href="">My Work</a></li>
-        <li><a href="">Drop me a line</a></li>
+        <li><a href="#featured">About Me</a></li>
+        <li><a href="#portfolio">My Work</a></li>
+        <li><a href="#dropLine">Drop me a line</a></li>
       </ul>
     </nav>
     <div class="container">
@@ -50,12 +51,114 @@
         <h2>Svetlin Pavlov</h2>
         <div class="links">
           <img src="./assets/github-logo.png" alt="Guthub-Logo" />
-          <i class="fas fa-angle-down fa-lg"></i>
+          <a href="#featured"><i class="fas fa-angle-down fa-lg"></i></a>
           <img src="./assets/twitter.png" alt="Twitter-Logo" />
         </div>
       </div>
-      <p class="NotReady">NOT FINAL RELEASE - STILL UNDER CONSTRUCTION</p>
+      <p class="NotReady">NOT FINAL RELEASE</p>
     </div>
+
+    <section class="featured" id="featured">
+      <svg
+        class="firstChild"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#a3bded"
+          fill-opacity="1"
+          d="M0,224L0,192L144,192L144,96L288,96L288,128L432,128L432,160L576,160L576,32L720,32L720,128L864,128L864,160L1008,160L1008,32L1152,32L1152,160L1296,160L1296,224L1440,224L1440,0L1296,0L1296,0L1152,0L1152,0L1008,0L1008,0L864,0L864,0L720,0L720,0L576,0L576,0L432,0L432,0L288,0L288,0L144,0L144,0L0,0L0,0Z"
+        ></path>
+      </svg>
+      <div class="left">
+        <div class="inner" transition2>
+          <p class="subtitle">About Me</p>
+          <a href="" class="featured-title">Front End Developer</a>
+
+          <p class="featured-desc">
+            My name is Svetlin Pavlov and i like Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Quaerat, quos?
+          </p>
+        </div>
+      </div>
+      <img
+        class="right"
+        transition2
+        src="./assets/featured-project.jpg"
+        alt="featured-project"
+      />
+      <svg
+        class="lastChild"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#6991c7"
+          fill-opacity="1"
+          d="M0,160L0,128L160,128L160,96L320,96L320,256L480,256L480,224L640,224L640,288L800,288L800,128L960,128L960,256L1120,256L1120,96L1280,96L1280,64L1440,64L1440,320L1280,320L1280,320L1120,320L1120,320L960,320L960,320L800,320L800,320L640,320L640,320L480,320L480,320L320,320L320,320L160,320L160,320L0,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="portfolio-container transition3">
+        <div class="portfolio-left">
+          <div class="inner">
+            <p class="subtitle">eCommerce Website</p>
+            <p class="featured-title">HydraseWear</p>
+            <p class="featured-desc">
+              HydraseWear description with Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Voluptatum, dolorem!
+            </p>
+          </div>
+        </div>
+        <a href=""><img src="./assets/featured-project.jpg" alt="1" /></a>
+      </div>
+      <div class="portfolio-container transition3">
+        <div class="portfolio-left">
+          <div class="inner">
+            <p class="subtitle">Chatting Application</p>
+            <p class="featured-title">HyChatty</p>
+            <p class="featured-desc">
+              HyChatty description with Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Numquam, a?
+            </p>
+          </div>
+        </div>
+        <a href=""><img src="./assets/featured-project.jpg" alt="1" /></a>
+      </div>
+
+      <div class="portfolio-container transition3">
+        <div class="portfolio-left">
+          <div class="inner">
+            <p class="subtitle">Movie trailers website</p>
+            <p class="featured-title">HyFlix</p>
+            <p class="featured-desc">
+              HyFlix description with Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Molestias, corrupti?
+            </p>
+          </div>
+        </div>
+        <a href=""><img src="./assets/featured-project.jpg" alt="1" /></a>
+      </div>
+      <div class="portfolio-container transition3">
+        <div class="portfolio-left">
+          <div class="inner">
+            <p class="subtitle">Blockchain Application</p>
+            <p class="featured-title">HyBit</p>
+            <p class="featured-desc">
+              HyBit is still under construction. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. A, placeat?
+            </p>
+          </div>
+        </div>
+        <a href=""><img src="./assets/featured-project.jpg" alt="1" /></a>
+      </div>
+      <a href="mailto:svetlinpav@gmail.com" id="dropLine"
+        ><p class="contactMe">WANNA DROP ME A LINE?</p></a
+      >
+    </section>
+
     <script src="./js/script.js"></script>
   </body>
 </html>
