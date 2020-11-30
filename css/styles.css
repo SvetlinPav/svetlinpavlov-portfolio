@@ -47,8 +47,16 @@ li img {
   align-items: center;
 }
 .links img {
-  width: 75px;
+  width: 70px;
   height: 100%;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.links img:first-child:hover {
+  transform: scale(1.1);
+}
+.links img:last-child:hover {
+  transform: scale(1.1);
 }
 .fas {
   animation: float 1.6s ease-in-out infinite;
@@ -199,6 +207,15 @@ section img {
   margin-bottom: 1.2em;
 }
 
+p.featured-title a {
+  color: #111;
+  transition: all 0.3s;
+}
+
+p.featured-title a:hover {
+  color: rgb(240, 240, 240);
+}
+
 .featured-desc {
   color: #302e2e;
   margin-bottom: 5em;
@@ -263,7 +280,7 @@ section img {
 
   .portfolio img {
     float: right;
-    max-width: 500px;
+    max-width: 560px;
   }
 }
 
@@ -292,14 +309,15 @@ section img {
     padding: 6em 20em 4em 20em;
   }
   .subtitle {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 
   .featured-title {
-    font-size: 2em;
+    font-size: 1.8em;
   }
 
   .featured-desc {
-    font-size: 1.4em;
+    font-size: 1em;
+    margin-bottom: 200px;
   }
 }

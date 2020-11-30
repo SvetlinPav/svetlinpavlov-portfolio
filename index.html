@@ -23,7 +23,12 @@
       <ul>
         <li><a href="#featured">About Me</a></li>
         <li><a href="#portfolio">My Work</a></li>
-        <li><a href="#dropLine">Drop me a line</a></li>
+        <li>
+          <a
+            href="mailto:svetlinpav@gmail.com?subject=Hey%20Svetlin!%20via%20the%20portfolio"
+            >Email Me</a
+          >
+        </li>
       </ul>
     </nav>
     <div class="container">
@@ -50,9 +55,21 @@
       <div class="name__links">
         <h2>Svetlin Pavlov</h2>
         <div class="links">
-          <img src="./assets/github-logo.png" alt="Guthub-Logo" />
-          <a href="#featured"><i class="fas fa-angle-down fa-lg"></i></a>
-          <img src="./assets/twitter.png" alt="Twitter-Logo" />
+          <a
+            href="https://github.com/SvetlinPav"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="./assets/github-logo.png" alt="Guthub-Logo"
+          /></a>
+          <a href="#featured" target="_blank" rel="noopener noreferrer"
+            ><i class="fas fa-angle-down fa-lg"></i
+          ></a>
+          <a
+            href="https://twitter.com/SvetlinPavlov"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="./assets/twitter.png" alt="Twitter-Logo"
+          /></a>
         </div>
       </div>
       <p class="NotReady">NOT FINAL RELEASE</p>
@@ -76,15 +93,20 @@
           <a href="" class="featured-title">Front End Developer</a>
 
           <p class="featured-desc">
-            My name is Svetlin Pavlov and i like Lorem, ipsum dolor sit amet
-            consectetur adipisicing elit. Quaerat, quos?
+            My name is Svetlin Pavlov I'm a Front End Developer from Bulgaria, I
+            remember when I was 14 years old I asked a busy dude on the internet
+            to teach me how to code I didn't get a response back from him so I
+            went on my own and throughout the years I taught myself how to code
+            and Now I can say I'm at a level where I can comfortable with my
+            skills, Sometimes I would spend hours trying to figure out how to
+            make a feature work but I won't give up until it's ready.
           </p>
         </div>
       </div>
       <img
         class="right"
         transition2
-        src="./assets/featured-project.jpg"
+        src="./assets/aboutme-showcase.jpg"
         alt="featured-project"
       />
       <svg
@@ -105,41 +127,83 @@
         <div class="portfolio-left">
           <div class="inner">
             <p class="subtitle">eCommerce Website</p>
-            <p class="featured-title">HydraseWear</p>
+            <p class="featured-title">
+              HydraseWear
+              <a
+                href="https://github.com/SvetlinPav/hydrase-wear"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fab fa-github"></i
+              ></a>
+            </p>
             <p class="featured-desc">
-              HydraseWear description with Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Voluptatum, dolorem!
+              HydraseWear is an eCommerce website made with React, Redux,
+              Styled-Components, firebase. When visiting the website please give
+              the server a few seconds to wake up.
             </p>
           </div>
         </div>
-        <a href=""><img src="./assets/featured-project.jpg" alt="1" /></a>
+        <a
+          href="https://hydrase-wear.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img src="./assets/hydrasewear-showcase.jpg" alt="1"
+        /></a>
       </div>
       <div class="portfolio-container transition3">
         <div class="portfolio-left">
           <div class="inner">
             <p class="subtitle">Chatting Application</p>
-            <p class="featured-title">HyChatty</p>
+            <p class="featured-title">
+              HyChatty
+              <a
+                href="https://github.com/SvetlinPav/hychatty"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fab fa-github"></i
+              ></a>
+            </p>
             <p class="featured-desc">
-              HyChatty description with Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Numquam, a?
+              HyChatty is a chatting application similar to discord made with
+              React, Redux and Firebase.
             </p>
           </div>
         </div>
-        <a href=""><img src="./assets/featured-project.jpg" alt="1" /></a>
+        <a
+          href="https://hychatty.web.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img src="./assets/hychatty-showcase.jpg" alt="1"
+        /></a>
       </div>
 
       <div class="portfolio-container transition3">
         <div class="portfolio-left">
           <div class="inner">
             <p class="subtitle">Movie trailers website</p>
-            <p class="featured-title">HyFlix</p>
+            <p class="featured-title">
+              HyFlix
+              <a
+                href="https://github.com/SvetlinPav/hyflix"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fab fa-github"></i
+              ></a>
+            </p>
             <p class="featured-desc">
-              HyFlix description with Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Molestias, corrupti?
+              Hyflix pulls movie data from an API and displays the data in rows
+              and when clicked on a movie thumbnail a trailer is played for that
+              movie. Note: Since trailers are being pulled from another API only
+              a few of the listed movies have trailers available.
             </p>
           </div>
         </div>
-        <a href=""><img src="./assets/featured-project.jpg" alt="1" /></a>
+        <a
+          href="https://hyflix-f36d7.web.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img src="./assets/hyflix-showcase.jpg" alt="1"
+        /></a>
       </div>
       <div class="portfolio-container transition3">
         <div class="portfolio-left">
@@ -154,11 +218,6 @@
         </div>
         <a href=""><img src="./assets/featured-project.jpg" alt="1" /></a>
       </div>
-      <a
-        href="mailto:svetlinpav@gmail.com?subject=Hey%20Svetlin!%20via%20the%20portfolio"
-        id="dropLine"
-        ><p class="contactMe">CLICK TO SEND ME AN EMAIL.</p></a
-      >
     </section>
 
     <script src="./js/script.js"></script>
