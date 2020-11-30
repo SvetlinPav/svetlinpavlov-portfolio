@@ -81,3 +81,31 @@ section {
 section p {
   font-size: 1.2em;
 }
+
+nav {
+  position: absolute;
+  width: 100%;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 28px 50px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 1.6rem;
+}
+nav ul li a {
+  color: #111;
+  text-decoration: none;
+  cursor: pointer;
+}
+nav ul li a:hover {
+  color: rgb(231, 226, 226);
+}
