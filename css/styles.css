@@ -23,6 +23,7 @@ body {
   color: #fff;
   font-size: 3rem;
   text-align: center;
+  margin: auto 20px;
 }
 li img {
   width: 100%;
@@ -115,6 +116,7 @@ nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 10px;
 }
 nav ul li {
   display: flex;
@@ -124,7 +126,8 @@ nav ul li {
   padding: 20px 50px;
   text-align: center;
   font-family: monospace;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  overflow: hidden;
 }
 nav ul li a {
   color: #111;
@@ -241,6 +244,34 @@ p.featured-title a:hover {
 .right {
   border-radius: 2em;
   margin-top: 0.3em;
+}
+
+@media only screen and (max-width: 350px) {
+  img.hideOnSmall {
+    display: none;
+  }
+  p.mb0 {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  nav ul li {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  ul li a {
+    font-size: 0.7rem;
+  }
+  .name__links {
+    font-size: 2rem;
+  }
+  img.twitter-logo {
+    transform: scale(0.75);
+  }
+  img.github-logo {
+    transform: scale(0.75);
+  }
 }
 
 @media only screen and (min-width: 800px) {
